@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_registro_huellas_fingerprint,registro.huellas.fingerprint,model_registro_huellas_fingerprint,base.group_user,1,1,1,1
+access_fingerprint_registration,fingerprint.registration,model_fingerprint_registration,base.group_user,1,1,1,1
+
+
+
+

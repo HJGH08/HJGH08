@@ -16,3 +16,4 @@ class FingerprintRegistration(models.Model):
 
         # Llama al método original de eliminación para eliminar el registro
         return super(FingerprintRegistration, self).unlink()
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_fingerprint_scanner_form" model="ir.ui.view">
+            <field name="name">fingerprint.scanner.form</field>
+            <field name="model">your.model.name</field>
+            <field name="arch" type="xml">
+                <form string="Fingerprint Scanner">
+                    <group>
+                        <button name="action_scan_fingerprint" string="Scan Fingerprint" type="object" class="oe_highlight"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>
